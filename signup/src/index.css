@@ -1,0 +1,122 @@
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+ 
+  
+  input, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    border: 1px solid gray;
+    padding: 5px ;
+    align-items: center; 
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-color: #c9505c;
+  
+  }
+
+  .name{
+    display: flex;
+    gap: 10px  
+  }
+  .head-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .mobile{
+    font-size: 12px;
+    color: #dc3545;
+    text-align: center;
+  }
+  
+  .dob{
+    display: flex;
+    gap: 10px;
+  }
+
+  .gender {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .gender-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #ccc;
+    width: 33%; /* Adjust width as needed */
+    padding: 5px;
+  }
+  
+  .gender-in input {
+    margin-left: 170px;
+  }
+  
+  .gender-l{
+    margin-bottom: 10px;
+  }
+  .click-signup{
+    text-align: center;
+  }
+
+
+  /* button */
+
+  .s{
+    background-color: rgb(58, 56, 56);
+    width: 150px;
+   
+    
+  }
+  .c{
+width: 150px;
+  }
+  
+  .btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
